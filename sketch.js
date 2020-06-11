@@ -42,7 +42,7 @@ function setup() {
 	World.add(world, boxLeftBody);
 
 	boxRightBody = Bodies.rectangle(500, 640, 20, 100);
-//	World.add(world.boxRightBody);
+	World.add(world, boxRightBody);
 }
 
 
